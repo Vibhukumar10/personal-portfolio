@@ -83,6 +83,35 @@
 }
 
 .app__navbar-menu {
+  .span-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .span-items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .span-items {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+    svg {
+      position: relative;
+      right: 1px;
+      width: 20px;
+      color: var(--black-color);
+    }
+    font-size: 1rem;
+  }
+
   width: 35px;
   height: 35px;
   border-radius: 50%;
